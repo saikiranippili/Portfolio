@@ -1,2 +1,2 @@
-# portfoilio
+# portfolio
 My Devloper Portfolio 

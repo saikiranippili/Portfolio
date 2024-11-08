@@ -779,6 +779,25 @@
   <script src="./assets/js/tilt.jquery.min.js"></script>
 
   <script src="./assets/js/main.js"></script>
+
+    <!-- JavaScript code to update the browser title -->
+    <script>
+        window.dynamic_browser_title = {
+            show: true,
+            text: 'Hire Me 🏢🥹
+
+        function handleVisibilityChange() {
+            if (window.dynamic_browser_title.show) {
+                if (document.hidden) {
+                    document.title = window.dynamic_browser_title.text;
+                } else {
+                    document.title = "Your Original Title";
+                }
+            }
+        }
+
+        document.addEventListener("visibilitychange", handleVisibilityChange);
+    </script>
 </body>
 
 </html>
